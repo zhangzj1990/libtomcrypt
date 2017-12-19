@@ -170,12 +170,15 @@ src/pk/dsa/dsa_make_key.obj src/pk/dsa/dsa_set.obj src/pk/dsa/dsa_set_pqg_dsapar
 src/pk/dsa/dsa_shared_secret.obj src/pk/dsa/dsa_sign_hash.obj src/pk/dsa/dsa_verify_hash.obj \
 src/pk/dsa/dsa_verify_key.obj src/pk/ecc/ecc.obj src/pk/ecc/ecc_ansi_x963_export.obj \
 src/pk/ecc/ecc_ansi_x963_import.obj src/pk/ecc/ecc_decrypt_key.obj src/pk/ecc/ecc_encrypt_key.obj \
-src/pk/ecc/ecc_export.obj src/pk/ecc/ecc_free.obj src/pk/ecc/ecc_get_size.obj src/pk/ecc/ecc_import.obj \
-src/pk/ecc/ecc_make_key.obj src/pk/ecc/ecc_shared_secret.obj src/pk/ecc/ecc_sign_hash.obj \
-src/pk/ecc/ecc_sizes.obj src/pk/ecc/ecc_test.obj src/pk/ecc/ecc_verify_hash.obj \
-src/pk/ecc/ltc_ecc_is_valid_idx.obj src/pk/ecc/ltc_ecc_map.obj src/pk/ecc/ltc_ecc_mul2add.obj \
-src/pk/ecc/ltc_ecc_mulmod.obj src/pk/ecc/ltc_ecc_mulmod_timing.obj src/pk/ecc/ltc_ecc_points.obj \
-src/pk/ecc/ltc_ecc_projective_add_point.obj src/pk/ecc/ltc_ecc_projective_dbl_point.obj \
+src/pk/ecc/ecc_export.obj src/pk/ecc/ecc_free.obj src/pk/ecc/ecc_get_curve_by_name.obj \
+src/pk/ecc/ecc_get_key.obj src/pk/ecc/ecc_get_size.obj src/pk/ecc/ecc_import.obj src/pk/ecc/ecc_make_key.obj \
+src/pk/ecc/ecc_set_dp.obj src/pk/ecc/ecc_set_dp_internal.obj src/pk/ecc/ecc_set_key.obj \
+src/pk/ecc/ecc_shared_secret.obj src/pk/ecc/ecc_sign_hash.obj src/pk/ecc/ecc_sizes.obj src/pk/ecc/ecc_test.obj \
+src/pk/ecc/ecc_verify_hash.obj src/pk/ecc/ltc_ecc_export_point.obj src/pk/ecc/ltc_ecc_import_point.obj \
+src/pk/ecc/ltc_ecc_is_point.obj src/pk/ecc/ltc_ecc_is_point_at_infinity.obj src/pk/ecc/ltc_ecc_map.obj \
+src/pk/ecc/ltc_ecc_mul2add.obj src/pk/ecc/ltc_ecc_mulmod.obj src/pk/ecc/ltc_ecc_mulmod_timing.obj \
+src/pk/ecc/ltc_ecc_points.obj src/pk/ecc/ltc_ecc_projective_add_point.obj \
+src/pk/ecc/ltc_ecc_projective_dbl_point.obj src/pk/ecc/ltc_ecc_verify_key.obj \
 src/pk/katja/katja_decrypt_key.obj src/pk/katja/katja_encrypt_key.obj src/pk/katja/katja_export.obj \
 src/pk/katja/katja_exptmod.obj src/pk/katja/katja_free.obj src/pk/katja/katja_import.obj \
 src/pk/katja/katja_make_key.obj src/pk/pkcs1/pkcs_1_i2osp.obj src/pk/pkcs1/pkcs_1_mgf1.obj \
